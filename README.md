@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<a href="https://velog.io/@jyujung2" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
+<a href="mailto:jace180324@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
+<a href="https://wool-moonflower-482.notion.site/121ee2938ab64cd2ba95fbf951ab7386" target="_blank"><img src="https://img.shields.io/badge/Portfolio-black?style=flat-square&logo=Notion&logoColor=white"/></a>
+
+
+
