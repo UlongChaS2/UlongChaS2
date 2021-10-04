@@ -3,7 +3,7 @@
 #### '생각만하는게 아닌 행동을 해야 발전이 있다. '
 
 > 계획만 세우는게 아닌 행동으로 이어지고 끊임없이 도전하여 목표를 이룹니다. <br/>
-기초를 다져 러닝커브 높이고 좋은 커뮤니케이션을 열정적으로 소통합니다.
+기초를 다져 러닝커브 높이고 좋은 커뮤니케이션을 열정적으로 소통합니다. 
 
 ### Stack🛠
 <span><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></span>
