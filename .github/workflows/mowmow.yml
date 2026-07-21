@@ -18,16 +18,38 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate MowMow
-        uses: UlongChaS2/mowmow@main
+      - name: Checkout MowMow generator
+        uses: actions/checkout@v4
         with:
-          username: ${{ github.repository_owner }}
-          output: dist/mowmow.svg
-          traversal: top-to-bottom
-          rows: "7"
-          columns: "53"
+          repository: UlongChaS2/mowmow
+          ref: main
+          path: .mowmow
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: .mowmow/package-lock.json
+
+      - name: Install MowMow dependencies
+        run: npm ci
+        working-directory: .mowmow
+
+      - name: Generate MowMow
+        run: |
+          npm run generate:svg -- \
+            --username "${{ github.repository_owner }}" \
+            --output "$GITHUB_WORKSPACE/dist/mowmow.svg" \
+            --traversal top-to-bottom \
+            --rows 7 \
+            --columns 53
+        working-directory: .mowmow
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Remove generator checkout
+        run: rm -rf .mowmow
 
       - name: Commit generated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
