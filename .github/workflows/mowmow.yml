@@ -41,7 +41,7 @@ jobs:
           npm run generate:svg -- \
             --username "${{ github.repository_owner }}" \
             --output "$GITHUB_WORKSPACE/dist/mowmow.svg" \
-            --traversal nearest \
+            --traversal random \
             --rows 7 \
             --columns 53
         working-directory: .mowmow
