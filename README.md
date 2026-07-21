@@ -2,6 +2,10 @@
 ## 함께 발전하고 싶은 개발자 정유정입니다.
 #### '생각만하는게 아닌 행동을 해야 발전이 있다. '
 
+<p align="center">
+  <img alt="MowMow contribution graph" src="./dist/mowmow.svg" />
+</p>
+
 > 계획만 세우는게 아닌 행동으로 이어지고 끊임없이 도전하여 목표를 이룹니다. <br/>
 기초를 다져 러닝커브 높이고 좋은 커뮤니케이션을 열정적으로 소통합니다. 
 
@@ -21,5 +25,4 @@
 <a href="mailto:jace180324@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <!-- <a href="https://wool-moonflower-482.notion.site/121ee2938ab64cd2ba95fbf951ab7386" target="_blank"><img src="https://img.shields.io/badge/Portfolio-black?style=flat-square&logo=Notion&logoColor=white"/></a>
  -->
-
 
